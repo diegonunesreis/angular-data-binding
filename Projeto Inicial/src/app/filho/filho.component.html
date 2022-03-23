@@ -1,0 +1,13 @@
+<div style="border: solid 1px black;">
+  <h3>Componente Filho</h3>
+  <br>
+  <b>Nome:</b> {{ nome }}
+  <br>
+  <b>Sobrenome:</b> {{ sobrenome }}
+  <br>
+  <b>Irmãos:</b>
+  <br>
+  <span *ngFor="let irmao of irmaos">
+    > {{ irmao }} <br>
+  </span>
+</div>
